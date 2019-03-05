@@ -341,8 +341,8 @@
     $PAGE->requires->js('/mod/mediaboard/js/ajaxupload.js?1', true);
 
 
-$PAGE->requires->js('/mod/voiceshadow/js/WebAudioRecorder.min.js?3', true);
-$PAGE->requires->js('/mod/voiceshadow/js/main_vs_pl.js?12', true);
+    $PAGE->requires->js('/mod/mediaboard/js/WebAudioRecorder.min.js?3', true);
+    $PAGE->requires->js('/mod/mediaboard/js/main_vs_pl.js?12', true);
 
     
     $title = $course->shortname . ': ' . format_string($mediaboard->name);
